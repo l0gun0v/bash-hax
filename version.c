@@ -33,11 +33,11 @@
 extern char *shell_name;
 
 /* Defines from version.h */
-const char * const dist_version = DISTVERSION;
+const char * const dist_version = "5.3";// DISTVERSION;
 const int patch_level = PATCHLEVEL;
-const int build_version = BUILDVERSION;
+const int build_version = 2;//BUILDVERSION;
 #ifdef RELSTATUS
-const char * const release_status = RELSTATUS;
+const char * const release_status = "hax";//RELSTATUS;
 #else
 const char * const release_status = (char *)0;
 #endif
